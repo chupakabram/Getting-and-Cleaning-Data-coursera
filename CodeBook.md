@@ -17,8 +17,8 @@ library(data.table)
 Download and unzip data
 ```sh
 print("Start downloading...\n")
-#download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip","./UCI HAR Dataset.zip")
-#unzip("./UCI HAR Dataset.zip")
+download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip","./UCI HAR Dataset.zip")
+unzip("./UCI HAR Dataset.zip")
 print("Data are donloaded and unpacked.\n")
 ```
 Working directory supposed to contain unpacked **'UCR HAR Dataset'** - load data tables
