@@ -120,10 +120,12 @@ View(df_final[,1:7])
 
 # Save final data
 write.csv(file="./FinalDataSet_MeanValues.csv", x=df_final)
-
 print("Data are stored in file FinalDataSet_MeanValues.csv\n")
 
-# ---------------- EOF ---------------------------- 
+write.table(dt_final,file="./FinalDataSet_MeanValues.txt", row.name=FALSE)
+print("Data are stored in file FinalDataSet_MeanValues.txt\n")
+
+# ---------------- EOF ----------------------------
 
 
 
